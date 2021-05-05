@@ -1,6 +1,6 @@
 # Pi Estimator
 
-Simple C program to apprximate pi up to the n-th digit.
+Simple C program to approximate pi up to the n-th digit using the MPFR library and the Bailey–Borwein–Plouffe formula.
 
 Based on an exercise from the [Modern C](https://modernc.gforge.inria.fr/) book by Jens Gustedt.
 
