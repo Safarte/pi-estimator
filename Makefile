@@ -1,7 +1,7 @@
 TARGET = pi
-LIBS = -lm -lmpfr -lgmp
+LIBS = -lm -lmpfr -lgmp -fopenmp
 CC = gcc
-CFLAGS = -g -Wall -O3
+CFLAGS = -g -Wall -O3 -fopenmp
 
 .PHONY: default all clean
 
