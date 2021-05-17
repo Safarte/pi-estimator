@@ -18,7 +18,6 @@ int main(int argc, char *argv[argc + 1]) {
 #pragma omp parallel private(a, b, c, d, e) shared(pi)
   {
     mpfr_init2(a, prec);
-    mpfr_set_d(a, 16., MPFR_RNDD);
     mpfr_init2(b, prec);
     mpfr_init2(c, prec);
     mpfr_init2(d, prec);
