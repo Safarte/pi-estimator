@@ -1,0 +1,16 @@
+[
+ {
+  "directory": "/home/safarte/Projects/C/pi",
+  "arguments": [
+   "gcc",
+   "-g",
+   "-Wall",
+   "-O3",
+   "-c",
+   "main.c",
+   "-o",
+   "main.o"
+  ],
+  "file": "main.c"
+ }
+]
